@@ -14,7 +14,7 @@ format:
 
 # Quick Start {.title}
 
-## Headings
+## Headings {.green}
 
 ### location
 

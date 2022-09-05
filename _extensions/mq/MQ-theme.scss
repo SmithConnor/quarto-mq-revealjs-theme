@@ -75,7 +75,7 @@ $code-block-border-color: $purple !default;
 .reveal .slides h2{
   text-transform: capitalize !important;
   font-size: 4rem;
-  background-image: url("_extensions/thomas-fung/mq/underline.png");
+  background-image: url(_extensions/mq/underline.png);
   background-position: 0 1.15em;
   background-repeat: repeat-x;
   background-size: 1107px 12px;
@@ -89,6 +89,38 @@ $code-block-border-color: $purple !default;
 
 .subtitle{
   color: $red !important;
+}
+
+.red{
+  color: $red !important;
+}
+
+.purple{
+  color: $purple !important;
+}
+
+.deep-red{
+  color: $deep-red !important;
+}
+
+.magenta{
+  color: $magenta !important;
+}
+
+.charcoal{
+  color: $charcoal !important;
+}
+
+.bright-red{
+  color: $bright-red !important;
+}
+
+.sand{
+  color: $sand !important;
+}
+
+.green{
+  color: $green !important;
 }
 
 

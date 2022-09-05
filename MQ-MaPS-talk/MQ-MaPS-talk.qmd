@@ -1,0 +1,88 @@
+---
+title: "reveal.js MQ"
+subtitle: "A Macquarie University theme for revealjs"
+author: "Connor Smith & Thomas Fung"
+institute: "School of Mathematical and Physical Sciences"
+date: "`r Sys.Date()`"
+footer: "[Awesome Quarto & RMarkdown resources for MQ](https://github.com/SmithConnor/revealMQ-presentation)"
+format: 
+  mq-revealjs:
+    width: 1920
+    height: 1080
+    self-contained: true
+    incremental: true
+    multiplex: true   
+---
+
+# Background {.title}
+
+## What is Quarto?
+
+### location
+
+What can be done with Quarto?
+
+-   publishing system
+
+-   easily combine everything you want (text, figures, graphs, code, code, etc.)
+
+. . .
+
+What can I produce with Quarto?
+
+-   Articles ([current journal templates](https://github.com/quarto-journals/))
+
+## Multiple Columns
+
+Lets have some fun ...
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+In this column we can describe what is going on.
+
+- Step 1
+
+- Step 2
+
+:::
+
+::: {.column width="60%"}
+
+```{.r .code-overflow-wrap code-line-numbers="|2|4-6"}
+x <- c(1:5)
+x <- c(1:5)
+x <- c(1:5)
+x <- c(1:5)
+x <- c(1:5)
+x <- c(1:5)
+x <- c(1:5)
+x <- c(1:5)
+x <- c(1:5)
+```
+
+:::
+
+::::
+
+## 
+
+I do not like indents.
+
+> I do like indents. This is called a block quote.
+
+:::{.callout-note}
+Test 1
+:::
+
+and
+
+:::{.callout-caution}
+## This is my super cool title
+Test 2
+:::
+
+:::{.callout}
+Test 3
+:::
