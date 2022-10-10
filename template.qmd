@@ -15,17 +15,19 @@ format:
 
 # Quick Start Guide
 
-## Headings
+## Code Snippets
+  
+### Presentation coding made easy
+  
+<hr size="2rem" color="#373A36">
 
-### location
+Copy and run the following code to install the RStudio code snippets for the MQ reveal.js Quarto presentation theme:
 
-Headings are used to define different sections in the revealjs slides:
+```{r}
+#| eval: false
 
--   A level 1 heading is used for title slides
-
--   A level 2 heading is used to indicate individual slides
-
-## highlighting code
+# TO BE UPDATED
+```
 
 ### how to
 
@@ -102,7 +104,7 @@ Right column
 ::: {.columns .v-center-container}
 ::: {.column width="35%"}
 
-![](_extensions\mq\MQ-diag-partial.png)
+![](_extensions\SmithConnor\mq\MQ-diag-partial.png)
 
 :::
 
