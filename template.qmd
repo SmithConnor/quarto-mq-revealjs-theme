@@ -1,19 +1,29 @@
 ---
-title: "reveal.js MQ"
-subtitle: "A Macquarie University theme for revealjs"
-author: "Connor Smith & Thomas Fung"
+title: "MQ Theme for Quarto reveal.js"
+subtitle: "A work in progress"
+author: "Dr Connor Smith"
 institute: "School of Mathematical and Physical Sciences"
-date: "`r Sys.Date()`"
-footer: "[Awesome Quarto & RMarkdown resources for MQ](https://github.com/SmithConnor/revealMQ-presentation)"
+date: "`r format(Sys.time(),'%A, %d %B %Y')`"
+footer: "[MQ Quarto reveal.js resources](https://github.com/SmithConnor/quarto-mq-revealjs-theme)"
 format: 
   mq-revealjs:
     width: 1920
     height: 1080
-    self-contained: false
-    navigation-mode: grid
 ---
 
-# Quick Start Guide
+#
+
+::: {.columns .v-center-container}
+::: {.column width="35%"}
+![](_extensions\SmithConnor\mq\MQ-diag-partial.png)
+:::
+
+::: {.column width="65%"}
+[Inbuilt slide options]{.section-header-text}
+
+[RStudio]{.section-subheader-text}
+:::
+:::
 
 ## Code Snippets
   
@@ -24,70 +34,49 @@ format:
 Copy and run the following code to install the RStudio code snippets for the MQ reveal.js Quarto presentation theme:
 
 ```{r}
+#| echo: true
 #| eval: false
 
 # TO BE UPDATED
 ```
 
-### how to
+## `R` Snippet List
 
-
-When demonstrating code in a unit, you are able to highlight code incrementally:
-
-```{r}
-#| echo: true
-#| eval: false
-#| code-line-numbers: "1|2"
-x <- c(1:5)
-y <- sum(x)
-
-```
-
-## Code 1
-
-### animation
-
-
-Walk your students through code step by step.
-
-```{r}
-#| echo: true
-#| eval: false
-x <- c(1:5)
-y <- sum(x)
-
-```
-
-## Code 2
-
-### animation
-
-Walk your students through code step by step.
-
-```{r}
-#| echo: true
-#| eval: false
-x <- c(1:5)
-y <- sum(x)
-z <- y^2
-
-```
-
-## This is a test slide where I do everything
-
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. [Here](https://www.emilhvitfeldt.com/post/slidecraft-colors-fonts/ "Testing this out") You can embed code like this:
-
-```{r}
-1 + 1
-```
-
-## Two Column
-
-### Add subtitle here
+### rgularly updated
 
 <hr size="2rem" color="#373A36">
 
-:::: {.columns}
+- `mq-presentation-section` : Section slide
+- `mq-presentation-slide` : One column slide
+- `mq-presentation-dual` : Two column slide
+
+#
+
+::: {.columns .v-center-container}
+::: {.column width="35%"}
+![](_extensions\SmithConnor\mq\MQ-diag-partial.png)
+:::
+
+::: {.column width="65%"}
+[Heading]{.section-header-text}
+
+[Subheading]{.section-subheader-text}
+:::
+:::
+
+## Heading
+
+### Subheading
+
+<hr size="2rem" color="#373A36">
+
+## Heading
+
+### Subheading
+
+<hr size="2rem" color="#373A36">
+
+::::{.columns}
 
 ::: {.column width="50%"}
 Left column
@@ -98,22 +87,3 @@ Right column
 :::
 
 ::::
-
-#
-
-::: {.columns .v-center-container}
-::: {.column width="35%"}
-
-![](_extensions\SmithConnor\mq\MQ-diag-partial.png)
-
-:::
-
-::: {.column width="65%"}
-
-[Heading]{.section-header-text}
-
-[Subheading]{.section-subheader-text}
-
-:::
-:::
-
