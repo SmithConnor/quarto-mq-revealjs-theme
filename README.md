@@ -11,7 +11,7 @@ This is a Quarto template that assists you in creating a presentation for use wi
 You can use this as a template to create a reveal.js presentation with a Macquarie University theme. To do this, use the following command:
 
 ```bash
-quarto use template thomas-fung/quarto-mq-revealjs-theme
+quarto use template SmithConnor/quarto-mq-revealjs-theme
 ```
 
 This will install the extension and create an example qmd file that you can use as a starting place for your presentation.
@@ -21,7 +21,7 @@ This will install the extension and create an example qmd file that you can use 
 You may also use this format with an existing Quarto project or presentation. From the quarto project or presentation directory, run the following command to install this format:
 
 ```bash
-quarto install extension thomas-fung/quarto-mq-revealjs-theme
+quarto install extension SmithConnor/quarto-mq-revealjs-theme
 ```
 
 ## Usage
@@ -38,4 +38,8 @@ or in your document yaml
 format:
   mq-revealjs
 ```
+
+## Code Snippets
+
+Addition code snippets have been created for use in `RStudio`.
 
