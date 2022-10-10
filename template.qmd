@@ -11,11 +11,11 @@ format:
     height: 1080
 ---
 
-#
+# 
 
 ::: {.columns .v-center-container}
 ::: {.column width="35%"}
-![](_extensions\SmithConnor\mq\MQ-diag-partial.png)
+![](_extensions%5CSmithConnor%5Cmq%5CMQ-diag-partial.png)
 :::
 
 ::: {.column width="65%"}
@@ -26,19 +26,30 @@ format:
 :::
 
 ## Code Snippets
-  
+
 ### Presentation coding made easy
-  
+
 <hr size="2rem" color="#373A36">
 
-Copy and run the following code to install the RStudio code snippets for the MQ reveal.js Quarto presentation theme:
+Copy and run the following code to install the `RStudio` code snippets for the MQ reveal.js Quarto presentation theme:
 
 ```{r}
 #| echo: true
 #| eval: false
 
-# TO BE UPDATED
+#install.packages("usethis")
+library(usethis)
+
+edit_rstudio_snippets("markdown")
 ```
+
+Copy the snippets from `mq.snippets` into the `markdown.snippets` file.
+
+::: callout-tip
+## Updating snippets
+
+Check back regularly to see if any of the snippets have been updated.
+:::
 
 ## `R` Snippet List
 
@@ -46,15 +57,15 @@ Copy and run the following code to install the RStudio code snippets for the MQ 
 
 <hr size="2rem" color="#373A36">
 
-- `mq-presentation-section` : Section slide
-- `mq-presentation-slide` : One column slide
-- `mq-presentation-dual` : Two column slide
+-   `mq-presentation-section` : Section slide
+-   `mq-presentation-slide` : One column slide
+-   `mq-presentation-dual` : Two column slide
 
-#
+# 
 
 ::: {.columns .v-center-container}
 ::: {.column width="35%"}
-![](_extensions\SmithConnor\mq\MQ-diag-partial.png)
+![](_extensions%5CSmithConnor%5Cmq%5CMQ-diag-partial.png)
 :::
 
 ::: {.column width="65%"}
@@ -76,8 +87,7 @@ Copy and run the following code to install the RStudio code snippets for the MQ 
 
 <hr size="2rem" color="#373A36">
 
-::::{.columns}
-
+::: columns
 ::: {.column width="50%"}
 Left column
 :::
@@ -85,5 +95,4 @@ Left column
 ::: {.column width="50%"}
 Right column
 :::
-
-::::
+:::
