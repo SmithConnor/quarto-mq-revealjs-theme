@@ -9,6 +9,7 @@ format:
   mq-revealjs:
     width: 1920
     height: 1080
+    highlight-style: github
 ---
 
 # 

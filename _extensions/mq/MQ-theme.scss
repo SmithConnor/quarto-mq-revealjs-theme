@@ -41,7 +41,6 @@ $presentation-title-slide-text-align: left;
 // Code Blocks
 $code-block-font-size: 100% !default;
 $code-block-bg:  #F5F5F5 !default;
-$code-block-border-color: $purple !default;
 
 /* -- scss:mixins --*/
 
@@ -116,6 +115,43 @@ $code-block-border-color: $purple !default;
   color: $bright-red !important;
 }
 
+// Colours
+
+.red{
+  color: $red !important;
+}
+
+.purple{
+  color: $purple !important;
+}
+
+.deep-red{
+  color: $deep-red !important;
+}
+
+.magenta{
+  color: $magenta !important;
+}
+
+.charcoal{
+  color: $charcoal !important;
+}
+
+.bright-red{
+  color: $bright-red !important;
+}
+
+.sand{
+  color: $sand !important;
+}
+
+.white{
+  color: $white !important;
+}
+
+.green{
+  color: $green !important;
+}
 
 
 
