@@ -9,12 +9,13 @@ format:
   mq-revealjs:
     width: 1920
     height: 1080
-    self-contained: true
+    self-contained: false
+    navigation-mode: grid
 ---
 
-# Quick Start {.title}
+# Quick Start Guide
 
-## Headings {.green}
+## Headings
 
 ### location
 
@@ -95,3 +96,22 @@ Right column
 :::
 
 ::::
+
+#
+
+::: {.columns .v-center-container}
+::: {.column width="35%"}
+
+![](_extensions\mq\MQ-diag-partial.png)
+
+:::
+
+::: {.column width="65%"}
+
+[Heading]{.section-header-text}
+
+[Subheading]{.section-subheader-text}
+
+:::
+:::
+
