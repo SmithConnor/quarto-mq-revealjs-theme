@@ -1,0 +1,17 @@
+## Heading
+
+### Subheading
+
+<hr size="2rem" color="#373A36">
+
+::::{.columns}
+
+::: {.column width="50%"}
+Left column
+:::
+
+::: {.column width="50%"}
+Right column
+:::
+
+::::

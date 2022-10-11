@@ -97,3 +97,28 @@ Left column
 Right column
 :::
 :::
+
+#
+
+::: {.columns .v-center-container}
+::: {.column width="35%"}
+![](_extensions\SmithConnor\mq\MQ-diag-partial.png)
+:::
+
+::: {.column width="65%"}
+[Slide Templates]{.section-header-text}
+
+[Quarto]{.section-subheader-text}
+:::
+:::
+
+## Slide Templates
+
+### content folder
+
+<hr size="2rem" color="#373A36">
+
+All pre-built slide templates are stored in the `content` folder. To add the slide to your presentation you can either:
+
+- Copy the `.qmd` file and edit to your liking. This can then be added to the base file with the following code: `markdown {{< include content\FILE-NAME.qmd >}}`
+- Copy the code from the relevant `.qmd` file into your base file.
