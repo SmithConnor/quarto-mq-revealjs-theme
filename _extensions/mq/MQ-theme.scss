@@ -153,5 +153,35 @@ $code-block-bg:  #F5F5F5 !default;
   color: $green !important;
 }
 
+// Hover Text
+
+.hovertext {
+  position: relative;
+  border-bottom: 1px dotted $charcoal;
+}
+
+.hovertext:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0.5;
+  width: 480px;
+  background-color: $charcoal;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 0;
+  transition: opacity 1s ease-in-out;
+
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 110%;
+}
+
+.hovertext:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
 
 
