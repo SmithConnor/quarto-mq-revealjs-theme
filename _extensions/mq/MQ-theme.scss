@@ -106,9 +106,9 @@ $code-block-bg:  #F5F5F5 !default;
 }
 
 .v-center-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
 }
 
 .reveal .slides code{

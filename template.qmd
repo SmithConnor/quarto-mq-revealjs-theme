@@ -16,7 +16,7 @@ format:
 
 ::: {.columns .v-center-container}
 ::: {.column width="35%"}
-![](_extensions\SmithConnor\mq\MQ-diag-partial.png)
+![](_extensions%5CSmithConnor%5Cmq%5CMQ-diag-partial.png)
 :::
 
 ::: {.column width="65%"}
@@ -66,7 +66,7 @@ Check back regularly to see if any of the snippets have been updated.
 
 ::: {.columns .v-center-container}
 ::: {.column width="35%"}
-![](_extensions\SmithConnor\mq\MQ-diag-partial.png)
+![](_extensions%5CSmithConnor%5Cmq%5CMQ-diag-partial.png)
 :::
 
 ::: {.column width="65%"}
@@ -98,11 +98,11 @@ Right column
 :::
 :::
 
-#
+# 
 
 ::: {.columns .v-center-container}
 ::: {.column width="35%"}
-![](_extensions\SmithConnor\mq\MQ-diag-partial.png)
+![](_extensions%5CSmithConnor%5Cmq%5CMQ-diag-partial.png)
 :::
 
 ::: {.column width="65%"}
@@ -120,5 +120,11 @@ Right column
 
 All pre-built slide templates are stored in the `content` folder. To add the slide to your presentation you can either:
 
-- Copy the `.qmd` file and edit to your liking. This can then be added to the base file with the following code: `markdown {{< include content\FILE-NAME.qmd >}}`
-- Copy the code from the relevant `.qmd` file into your base file.
+-   Copy the `.qmd` file and edit to your liking. This can then be added to the base file with the following code: `markdown {{< include content\FILE-NAME.qmd >}}`
+-   Copy the code from the relevant `.qmd` file into your base file.
+
+## Hover text
+
+### Set up
+
+<hr size="2rem" color="#373A36">
