@@ -16,7 +16,7 @@ format:
 
 ::: {.columns .v-center-container}
 ::: {.column width="35%"}
-![](_extensions%5CSmithConnor%5Cmq%5CMQ-diag-partial.png)
+![](_extensions/CSmithConnor/Cmq/CMQ-diag-partial.png)
 :::
 
 ::: {.column width="65%"}
@@ -66,7 +66,7 @@ Check back regularly to see if any of the snippets have been updated.
 
 ::: {.columns .v-center-container}
 ::: {.column width="35%"}
-![](_extensions%5CSmithConnor%5Cmq%5CMQ-diag-partial.png)
+![](_extensions/CSmithConnor/Cmq/CMQ-diag-partial.png)
 :::
 
 ::: {.column width="65%"}
@@ -102,7 +102,7 @@ Right column
 
 ::: {.columns .v-center-container}
 ::: {.column width="35%"}
-![](_extensions%5CSmithConnor%5Cmq%5CMQ-diag-partial.png)
+![](_extensions/CSmithConnor/Cmq/CMQ-diag-partial.png)
 :::
 
 ::: {.column width="65%"}
