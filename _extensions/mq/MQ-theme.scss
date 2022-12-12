@@ -77,6 +77,19 @@ $code-block-bg:  #F5F5F5 !default;
 
 #title-slide{
   top: 0 !important;
+  
+  .quarto-title-authors{
+    justify-content: left;
+    
+    .quarto-title-author{
+      padding-left: 0em;
+      padding-right: 0em;
+      width: 100%;
+    }
+  .quarto-title-affiliation{
+    font-size: 100%;
+  }
+  }
 }
 
 .subtitle{
